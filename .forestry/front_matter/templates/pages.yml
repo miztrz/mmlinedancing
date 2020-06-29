@@ -1,4 +1,14 @@
 ---
 label: Pages
 hide_body: false
-fields: []
+display_field: body
+fields:
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body
