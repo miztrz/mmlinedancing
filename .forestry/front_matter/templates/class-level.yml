@@ -1,8 +1,9 @@
 ---
 label: Class Level
-hide_body: true
+hide_body: false
+display_field: classlevel
 fields:
-- name: classlevel
+- name: level
   type: text
   config:
     required: false
