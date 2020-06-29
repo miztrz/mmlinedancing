@@ -15,21 +15,20 @@ sections:
   label: Dance List
   create: documents
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 - type: directory
   path: data/socials
   label: Social Network Links
   create: documents
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 - type: heading
   label: Settings
 - type: document
   path: data/settings/about.yml
   label: About MM Line Dancing
-  match: "**/*"
-upload_dir: source/uploads
-public_path: "/uploads"
+upload_dir: source/images
+public_path: "/images"
 front_matter_path: "/data"
 use_front_matter_path: true
 file_template: ":filename:"
