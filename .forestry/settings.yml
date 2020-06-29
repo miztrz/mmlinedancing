@@ -35,7 +35,6 @@ sections:
 - type: document
   path: data/settings/navigation.yml
   label: Navigation Links
-  match: "**/*"
 upload_dir: source/images
 public_path: "/images"
 front_matter_path: "/data"
