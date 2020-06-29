@@ -5,11 +5,11 @@ admin_path: source/admin/cms
 webhook_url: 
 sections:
 - type: directory
-  path: data/socials
-  label: Social Network Links
+  path: data/classes
+  label: Class Timetable
   create: documents
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 - type: directory
   path: data/dances
   label: Dance List
@@ -17,11 +17,17 @@ sections:
   match: "**/*"
   new_doc_ext: ".yml"
 - type: directory
-  path: data/classes
-  label: Class Timetable
+  path: data/socials
+  label: Social Network Links
   create: documents
   match: "**/*"
-  new_doc_ext: yml
+  new_doc_ext: ".yml"
+- type: heading
+  label: Settings
+- type: document
+  path: data/settings/about.yml
+  label: About MM Line Dancing
+  match: "**/*"
 upload_dir: source/uploads
 public_path: "/uploads"
 front_matter_path: "/data"
