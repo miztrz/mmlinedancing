@@ -5,28 +5,15 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "MM Line Dancing" %></title>
     <%= stylesheet_link_tag "site" %>
     <%= favicon_tag 'images/favicon.ico' %>
     <%= javascript_include_tag "site" %>
     <script src="https://kit.fontawesome.com/2474c981d8.js" crossorigin="anonymous"></script>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>
   </head>
   <body>
     <%= partial 'partials/navbar' %>
     <%= yield %>
     <%= partial 'partials/footer' %>
-    <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
   </body>
 </html>
