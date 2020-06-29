@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: source/cms
 webhook_url: 
 sections:
+- type: heading
+  label: Site Content
 - type: directory
   path: data/classes
   label: Class Timetable
@@ -22,11 +24,11 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: yml
-- type: heading
-  label: Settings
 - type: document
   path: data/settings/about.yml
   label: About MM Line Dancing
+- type: heading
+  label: Site Settings (In Progress)
 upload_dir: source/images
 public_path: "/images"
 front_matter_path: "/data"
