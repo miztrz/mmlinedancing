@@ -12,18 +12,24 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: yml
+  templates:
+  - class
 - type: directory
   path: data/dances
   label: Dance List
   create: documents
   match: "**/*"
   new_doc_ext: yml
+  templates:
+  - dance-steps
 - type: directory
   path: data/socials
   label: Social Network Links
   create: documents
   match: "**/*"
   new_doc_ext: yml
+  templates:
+  - social-network-link
 - type: heading
   label: Site Settings (In Progress)
 - type: document
