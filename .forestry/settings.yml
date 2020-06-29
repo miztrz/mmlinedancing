@@ -4,12 +4,11 @@ auto_deploy: false
 admin_path: source/cms
 webhook_url: 
 sections:
-- path: source
+- type: directory
+  path: source
   label: Pages
   create: all
-  # Imported pages without a FMT assigned
-  # will automatically use "pages"
-
+  match: "**/*"
 - type: heading
   label: Site Content
 - type: directory

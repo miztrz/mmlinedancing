@@ -8,3 +8,5 @@ fields:
   config:
     required: false
   label: Page Title
+pages:
+- source/test-page.html
