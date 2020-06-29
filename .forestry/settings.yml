@@ -32,7 +32,6 @@ sections:
 - type: document
   path: data/settings/class-levels.yml
   label: Class Levels
-  match: "**/*"
 upload_dir: source/images
 public_path: "/images"
 front_matter_path: "/data"
