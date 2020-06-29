@@ -4,14 +4,18 @@ hide_body: true
 fields:
 - type: field_group_list
   name: links
-  label: links
   fields:
   - type: text
     name: name
-    label: name
+    label: Page Name
+    config:
+      required: true
   - type: text
     name: link
-    label: link
+    label: Relative Path
   - type: boolean
     name: hidden
-    label: hidden
+    label: Hidden
+  label: Links
+  config:
+    labelField: name
