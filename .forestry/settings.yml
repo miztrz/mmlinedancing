@@ -34,8 +34,8 @@ use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: build
-  install_dependencies_command: bundle install
-  preview_docker_image: forestryio/ruby:2.6
+  install_dependencies_command: bundle install --path vendor/bundle && npm install
+  preview_docker_image: forestryio/ruby:2.6-node12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: bundle exec middleman build
+  instant_preview_command: NO_CONTRACTS=true bundle exec middleman build --clean
