@@ -9,8 +9,6 @@ sections:
   label: Pages
   create: none
   match: "*.html.erb"
-  templates:
-  - page
 - type: heading
   label: Site Content
 - type: directory
