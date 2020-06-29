@@ -1,25 +1,45 @@
 ---
 label: Class
-hide_body: true
+hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
-  label: title
-- type: text
-  name: day
-  label: day
+  label: Class Name
+  config:
+    required: true
+- name: day
+  type: select
+  default: Monday
+  config:
+    required: true
+    options:
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Day
 - type: text
   name: start_time
-  label: start_time
+  label: Start Time
 - type: text
   name: end_time
-  label: end_time
+  label: End Time
 - type: text
   name: level
   label: level
 - type: text
   name: location
-  label: location
+  label: Location
+  description: Address of site
 - type: text
   name: cost
-  label: cost
+  label: Cost
