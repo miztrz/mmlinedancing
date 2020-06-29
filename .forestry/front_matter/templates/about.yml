@@ -1,0 +1,11 @@
+---
+label: About
+hide_body: true
+fields:
+- type: textarea
+  name: blurb
+  label: Your Story
+  config:
+    wysiwyg: true
+    schema:
+      format: html

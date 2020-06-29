@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: source/cms
 webhook_url: 
 sections:
+- type: heading
+  label: Site Content
 - type: directory
   path: data/classes
   label: Class Timetable
@@ -22,11 +24,14 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: yml
-- type: heading
-  label: Settings
 - type: document
   path: data/settings/about.yml
   label: About MM Line Dancing
+- type: heading
+  label: Site Settings (In Progress)
+- type: document
+  path: data/settings/class-levels.yml
+  label: Class Levels
 upload_dir: source/images
 public_path: "/images"
 front_matter_path: "/data"
@@ -35,7 +40,7 @@ file_template: ":filename:"
 build:
   preview_output_directory: build
   install_dependencies_command: bundle install --path vendor/bundle
-  preview_docker_image: forestryio/ruby:2.6
+  preview_docker_image: forestryio/ruby:2.6-node12
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: NO_CONTRACTS=true bundle exec middleman build --clean

@@ -1,0 +1,35 @@
+---
+label: Dance Steps
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Dance Name
+  config:
+    required: true
+- name: files
+  type: image_gallery
+  config: {}
+  label: File(s)
+- type: text
+  name: choreographer
+  label: Choreographer
+- type: text
+  name: song_artist
+  label: Song & Artist
+- name: level
+  type: include
+  config: {}
+  template: class-level
+  label: Level
+- name: date
+  type: datetime
+  label: Date Released
+  description: ''
+  config:
+    required: false
+    date_format: MMMM YYYY
+    time_format: 
+    display_utc: false
+    export_format: MMMM YYYY
+  default: now
