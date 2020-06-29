@@ -33,9 +33,11 @@ fields:
 - type: text
   name: end_time
   label: End Time
-- type: text
-  name: level
-  label: level
+- name: level
+  type: include
+  config: {}
+  template: class-level
+  label: Level
 - type: text
   name: location
   label: Location
