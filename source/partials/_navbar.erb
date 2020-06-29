@@ -1,0 +1,13 @@
+<div class="navbar" id="myTopnav">
+  <%= link_to 'Home', '/index.html', :class => "w3-bar-item w3-button w3-padding-16" %>
+  <%= link_to 'About', '/about.html', :class => "w3-bar-item w3-button w3-padding-16" %>
+  <%= link_to 'Classes', '/classes.html', :class => "w3-bar-item w3-button w3-padding-16" %>
+  <%= link_to 'Dance List', '/dances.html', :class => "w3-bar-item w3-button w3-padding-16" %>
+  <%= link_to 'Contact', '/contact.html', :class => "w3-bar-item w3-button w3-padding-16" %>
+  <% if development? %>
+  <%= link_to 'Admin', '/admin', :class => "w3-bar-item w3-button w3-padding-16" %>
+  <% end %>
+    <a href="javascript:void(0);" class="icon w3-bar-item w3-button w3-padding-16" onclick="addResponsiveNav()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>

@@ -1,0 +1,28 @@
+<% dances = data.dances.map { |d| d[1] } %>
+
+  <!-- Main Content -->
+  <main class="w3-text-theme">
+        <div class="w3-container w3-responsive">
+    <div class="w3-container"><h1 class="w3-center">Dance List</h1></div>
+
+        <table class="w3-table-all w3-card-4 small-screen-scale w3-margin-bottom">
+    <tr class="w3-theme">
+      <th>Dance Title</th>
+      <th>Choreographer</th>
+      <th>Song and Artist</th>
+      <th>Level</th>
+      <th>Date</th>
+    </tr>
+
+  <% dances.each do |da| %>
+  <tr class="w3-hover-theme">
+  <td><a href="<%= da.link %>" target="_blank"><%= da.title %></a></td>
+  <td><%= da.choreographer %></td>
+  <td><%= da.song_artist %></td>
+  <td><%= da.level %></td>
+  <td><%= da.date %></td>
+</tr>
+  <% end %>
+</table>
+</div>
+</main>

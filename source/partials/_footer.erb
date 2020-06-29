@@ -1,0 +1,16 @@
+<% socials = data.socials.map { |s| s[1] } %>
+
+
+<footer class="w3-container w3-theme-dark w3-center" >
+
+  <% socials.each do |so| %>
+  <div class="w3-show-inline-block">
+    <% link_to so.url do %>
+        <span class="w3-xlarge w3-text-white w3-padding">
+            <i class="<%= so.facode %>"></i>
+        </span>
+    <% end %>
+    </div>
+  <% end %>
+
+</footer>

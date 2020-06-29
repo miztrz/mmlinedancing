@@ -1,0 +1,36 @@
+/* Logo styling */
+
+.logo {
+    max-width: 95%;
+}
+
+// Import partials 
+@import '_navbar.css.scss';
+// Import Styles
+@import '_w3.css.scss';
+@import '_fonts.css.scss';
+
+/* Footer styling - Left here instead of partials as it effects the whole page. */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Hiding alerts for larger screens */
+
+@media screen and (max-width: 600px) {
+    .small-screen-scale {
+        font-size: x-small;
+    }
+}
+
+
+/* Enforces textarea sizing */
+
+.textarea {
+    max-width: 100%;
+    min-height: 100px;
+}

@@ -1,0 +1,42 @@
+<main class="w3-text-theme">
+    <div class="w3-container">
+        <div class="w3-container">
+            <h1 class="w3-center">Contact</h1>
+        </div>
+
+        <div class="w3-quarter w3-container w3-hide-small">
+            <div class="w3-display-container w3-hide">Hidden element</div>
+        </div>
+
+        <div class="w3-container w3-card w3-margin w3-half">
+            <form autocomplete="on" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" onsubmit="alert('Thankyou for your enquiry, MM Line Dancing will respond as soon as possible.')" action="/index.html">
+                <p class="w3-hide">
+                    <label>Don’t fill this out if you're human: 
+                    <input name="bot-field" />
+                    </label>
+                </p>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border-0 w3-light-grey" name="name" type="text" placeholder="Name">
+                    </div>
+                </div>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border-0 w3-light-grey" name="email" type="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+                    <div class="w3-rest">
+                        <textarea class="w3-input w3-border-0 w3-light-grey textarea" placeholder="Enquiry details" required></textarea>
+                    </div>
+                </div>
+                <div class="w3-section w3-center">
+                    <input type="submit" value="Submit" class="w3-button w3-theme w3-large">
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
