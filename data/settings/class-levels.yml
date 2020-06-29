@@ -1,3 +1,4 @@
-level: Beginner
-level: Intermediate
-level: Advanced
+levels: 
+  - Beginner
+  - Intermediate
+  - Advanced
