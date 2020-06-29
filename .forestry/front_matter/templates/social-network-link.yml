@@ -1,13 +1,20 @@
 ---
 label: Social Network Link
-hide_body: true
+hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: Social Network
 - type: text
   name: url
-  label: url
+  label: Link
+  config:
+    required: true
 - type: text
   name: facode
-  label: facode
+  label: Font Awesome Code
+  description: This is the Font Awesome code for the icon, can be found at <a href="https://fontawesome.com/icons?d=gallery"
+    title="Font Awesome Gallery" target="_blank">https://fontawesome.com/icons?d=gallery</a>
+  config:
+    required: true
