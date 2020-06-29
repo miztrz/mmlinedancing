@@ -3,7 +3,7 @@ label: Class Level
 hide_body: false
 display_field: classlevel
 fields:
-- name: level
+- name: levels
   type: text
   config:
     required: false
