@@ -1,0 +1,22 @@
+---
+label: Dance Steps
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: url
+  label: url
+- type: text
+  name: choreographer
+  label: choreographer
+- type: text
+  name: song_artist
+  label: song_artist
+- type: text
+  name: level
+  label: level
+- type: text
+  name: date
+  label: date
