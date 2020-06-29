@@ -5,7 +5,7 @@ admin_path: source/cms
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: source
   label: Pages
   create: none
   match: "**/*.html.erb"
