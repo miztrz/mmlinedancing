@@ -5,10 +5,10 @@ admin_path: source/cms
 webhook_url: 
 sections:
 - type: directory
-  path: source
+  path: ''
   label: Pages
   create: none
-  match: "**/*.html.erb"
+  match: "**/*.html"
   templates:
   - pages
 - type: heading
