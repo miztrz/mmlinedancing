@@ -8,12 +8,3 @@ fields:
   config:
     required: false
   label: Page Title
-- name: body
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Body
