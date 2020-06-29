@@ -1,0 +1,20 @@
+links: 
+  - name: Home
+    link: /
+    hidden: false
+  - name: About
+    link: /about.html
+    hidden: false
+  - name: 'Class Timetable'
+    link: /classes.html
+    hidden: false
+  - name: 'Dance List'
+    link: /dances.html
+    hidden: false
+  - name: Contact
+    link: /contact.html
+    hidden: false
+  - name: Admin
+    link: /cms
+    hidden: true
+  
