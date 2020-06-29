@@ -3,6 +3,11 @@ label: Pages
 hide_body: false
 display_field: body
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Page Title
 - name: body
   type: textarea
   default: ''
