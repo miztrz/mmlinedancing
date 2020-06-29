@@ -3,7 +3,13 @@ new_page_extension: html
 auto_deploy: false
 admin_path: source/admin/cms
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: data/classes
+  label: Class Timetable
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".yml"
 upload_dir: source/uploads
 public_path: "/uploads"
 front_matter_path: "/data"
