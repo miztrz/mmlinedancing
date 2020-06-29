@@ -1,4 +1,9 @@
 ---
 label: Class Level
 hide_body: true
-fields: []
+fields:
+- name: classlevel
+  type: text
+  config:
+    required: false
+  label: Level Name
