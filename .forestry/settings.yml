@@ -8,7 +8,7 @@ sections:
   path: source
   label: Pages
   create: all
-  match: "**/*"
+  match: "**html.erb"
 - type: heading
   label: Site Content
 - type: directory
