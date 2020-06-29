@@ -1,0 +1,7 @@
+---
+label: About
+hide_body: true
+fields:
+- type: textarea
+  name: blurb
+  label: blurb
