@@ -24,11 +24,11 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: yml
+- type: heading
+  label: Site Settings (In Progress)
 - type: document
   path: data/settings/about.yml
   label: About MM Line Dancing
-- type: heading
-  label: Site Settings (In Progress)
 - type: document
   path: data/settings/class-levels.yml
   label: Class Levels
