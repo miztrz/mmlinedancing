@@ -1,7 +1,9 @@
-title: "Truck Stop Tramps"
-day: "Thursday"
-start_time: "5:30 pm"
-end_time: "6:30 pm"
-level: "Intermediate"
-location: "123 A Place, Perth WA 6000"
-cost: "$20 per person"
+---
+title: Absolute Beginners
+day: Thursday
+start_time: 1:30 pm
+end_time: 2:30 pm
+level: Intermediate
+location: 28 Addison Ave, Baldivis  WA  6171
+cost: "$5 per person"
+levels: Absolute Beginners
