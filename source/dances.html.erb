@@ -15,14 +15,19 @@ title: 'MM Line Dancing - Dance List'
       <th>Choreographer</th>
       <th>Song and Artist</th>
       <th>Level</th>
+      <th>Uploads</th>
     </tr>
 
   <% dances.each do |da| %>
   <tr class="w3-hover-theme">
-  <td><a href="<%= da.link %>" target="_blank"><%= da.title %></a></td>
+  <td><%= da.title %></td>
   <td><%= da.choreographer %></td>
   <td><%= da.song_artist %></td>
   <td><%= da.level %></td>
+  <td><% da.files.each do |file| %>
+    <%= file.link %>
+    <% end %>
+  </td>
 </tr>
   <% end %>
 </table>
