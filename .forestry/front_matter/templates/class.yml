@@ -10,7 +10,6 @@ fields:
     required: true
 - name: day
   type: select
-  default: Monday
   config:
     required: true
     options:
@@ -23,21 +22,28 @@ fields:
     - Saturday
     source:
       type: simple
-      section: 
-      file: 
-      path: 
   label: Day
 - type: text
   name: start_time
   label: Start Time
+  description: Time as "H:MM am/pm"
+  default: '0:00 am/pm'
+  config:
+    required: true
 - type: text
   name: end_time
   label: End Time
+  description: Time as "H:MM am/pm"
+  default: '0:00 am/pm'
+  config:
+    required: true
 - name: level
   type: include
   config: {}
   template: class-level
   label: Level
+  config:
+    required: true
 - type: text
   name: location
   label: Location
@@ -46,4 +52,4 @@ fields:
   name: cost
   label: Cost
 pages:
-- data/classes/truck-stop-tramps.yml
+- data/classes/absolute-beginners.yml
