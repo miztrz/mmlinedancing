@@ -25,9 +25,11 @@ title: 'MM Line Dancing - Dance List'
   <td><%= da.song_artist %></td>
   <td><%= da.levels %></td>
   <td>
-  <%= da.files.to_s %>
-  <%# <i class="fas fa-link"></i> %>
-
+  <% da.files.to_a.each do |f| %>
+  <% link_to f do %>
+  <i class="fas fa-link"></i>
+ <% end %>
+  <% end %>
   </td>
 </tr>
   <% end %>
