@@ -3,16 +3,16 @@ links:
     link: /
     hidden: false
   - name: About
-    link: /about.html
+    link: /about
     hidden: false
   - name: 'Class Timetable'
-    link: /classes.html
+    link: /classes
     hidden: false
   - name: 'Dance List'
-    link: /dances.html
+    link: /dances
     hidden: false
   - name: Contact
-    link: /contact.html
+    link: /contact
     hidden: false
   - name: Admin
     link: /cms

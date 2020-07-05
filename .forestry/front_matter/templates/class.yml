@@ -39,7 +39,6 @@ fields:
     required: true
 - name: level
   type: select
-  default: Beginner
   config:
     required: true
     options: []
