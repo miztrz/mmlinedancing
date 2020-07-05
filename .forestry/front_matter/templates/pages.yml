@@ -8,9 +8,3 @@ fields:
   config:
     required: false
   label: Page Title
-pages:
-- source/about.html.erb
-- source/classes.html.erb
-- source/contact.html.erb
-- source/dances.html.erb
-- source/index.html.erb

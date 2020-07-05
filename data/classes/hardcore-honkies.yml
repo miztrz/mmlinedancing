@@ -1,7 +1,0 @@
-title: "Hardcore Honkies"
-day: "Tuesday" # Day of the week (full name, correct casing)
-start_time: "7:00 pm" # Format as H:MM am/pm
-end_time: "8:00 pm"
-level: "Advanced"
-location: "123 A Place, Perth WA 6000"
-cost: "$25 per person"
