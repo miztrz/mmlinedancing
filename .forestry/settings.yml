@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: source/cms
 webhook_url: 
 sections:
-- type: directory
-  path: source
-  label: Pages
-  create: all
-  match: "**html.erb"
 - type: heading
   label: Site Content
 - type: directory
