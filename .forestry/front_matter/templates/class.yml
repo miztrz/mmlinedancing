@@ -27,23 +27,22 @@ fields:
   name: start_time
   label: Start Time
   description: Time as "H:MM am/pm"
-  default: '0:00 am/pm'
+  default: 0:00 am/pm
   config:
     required: true
 - type: text
   name: end_time
   label: End Time
   description: Time as "H:MM am/pm"
-  default: '0:00 am/pm'
+  default: 0:00 am/pm
   config:
     required: true
 - name: level
   type: include
-  config: {}
-  template: class-level
-  label: Level
   config:
     required: true
+  template: class-level
+  label: Level
 - type: text
   name: location
   label: Location
