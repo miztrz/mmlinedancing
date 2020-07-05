@@ -38,10 +38,16 @@ fields:
   config:
     required: true
 - name: level
-  type: include
+  type: select
+  default: Beginner
   config:
     required: true
-  template: class-level
+    options: []
+    source:
+      type: documents
+      section: class-levels
+      file: data/settings/class-levels.yml
+      path: levels
   label: Level
 - type: text
   name: location
