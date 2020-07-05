@@ -18,18 +18,14 @@ fields:
   name: song_artist
   label: Song & Artist
 - name: level
-  type: include
-  config: {}
-  template: class-level
-  label: Level
-- name: date
-  type: datetime
-  label: Date Released
-  description: ''
+  type: select
+  default: Beginner
   config:
-    required: false
-    date_format: MMMM YYYY
-    time_format: 
-    display_utc: false
-    export_format: MMMM YYYY
-  default: now
+    required: true
+    options: []
+    source:
+      type: documents
+      section: class-levels
+      file: data/settings/class-levels.yml
+      path: levels
+  label: Level
