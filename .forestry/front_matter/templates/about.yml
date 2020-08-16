@@ -2,6 +2,11 @@
 label: About
 hide_body: true
 fields:
+- name: pictag
+  type: text
+  config:
+    required: false
+  label: About Picture Tag
 - type: textarea
   name: blurb
   label: Your Story
