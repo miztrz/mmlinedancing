@@ -4,6 +4,13 @@
     max-width: 95%;
 }
 
+/* About Image */
+
+.about-img {
+    height: 600px;
+    width: auto;
+}
+
 // Import partials 
 @import '_navbar.css.scss';
 // Import Styles
